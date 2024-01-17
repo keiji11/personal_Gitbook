@@ -5,3 +5,4 @@
 * [💻 Linux commands](linux-commands.md)
 * [🐚 Cambio dell'ambiente shell](cambio-dellambiente-shell.md)
 * [👥 Utenze e gruppi](utenze-e-gruppi.md)
+* [🚫 Permessi ed accesso file](permessi-ed-accesso-file.md)
