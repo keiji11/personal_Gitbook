@@ -6,3 +6,4 @@
 * [🐚 Cambio dell'ambiente shell](cambio-dellambiente-shell.md)
 * [👥 Utenze e gruppi](utenze-e-gruppi.md)
 * [🚫 Permessi ed accesso file](permessi-ed-accesso-file.md)
+* [😁 Controllo Accessi ai file](controllo-accessi-ai-file.md)
