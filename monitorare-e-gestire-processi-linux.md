@@ -1,6 +1,6 @@
 # 🎓 Monitorare e Gestire Processi Linux
 
-### Comandi ps
+## Comandi `ps`
 
 <pre class="language-sh"><code class="lang-sh"># Visualizza tutti i processi, compresi quelli senza terminale di controllo.
 # e li sto filtrando dalla shell bash
@@ -23,7 +23,7 @@ ps lax | head -5
 ps -ef | head -5
 ```
 
-### Schemi
+## Schemi
 
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Lifecycle dei processi</p></figcaption></figure>
 
