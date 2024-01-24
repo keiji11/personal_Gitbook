@@ -67,6 +67,18 @@ bg %1
 ps j | grep sleep
 ```
 
+```sh
+ps jT
+```
+
+## Uccidere i processi (_KILL_)
+
+### Controllo dei processi con _signal_
+
+**Table 8.2.** _Signal_ fondamentali per la gestione dei processi
+
+<table data-full-width="true"><thead><tr><th>Signal</th><th>Nome</th><th>Definizione</th></tr></thead><tbody><tr><td>1</td><td>HUP</td><td><code>Hangup</code> : Segnala la terminazione del processo di controllo di un terminale. Richiede anche la reinizializzazione del processo (ricarica della configurazione) senza terminazione.</td></tr><tr><td>2</td><td>INT</td><td><code>Keyboard interrupt</code> : Provoca l'interruzione del programma. Può essere bloccata o gestita. Viene inviato premendo la sequenza di tasti INTR (Interrupt)(<strong>Ctrl</strong>+<strong>C</strong>).</td></tr><tr><td>3</td><td>QUIT</td><td><code>Keyboard quit</code> : Simile a SIGINT; aggiunge un dump del processo al momento della terminazione. Viene inviato premendo la sequenza di tasti QUIT (<strong>Ctrl</strong>+<strong>\</strong>).</td></tr><tr><td>9</td><td>KILL</td><td><code>Kill, unblockable</code> : Provoca una brusca terminazione del programma. Non può essere bloccata, ignorata o gestita; è sempre fatale.</td></tr><tr><td><p>15 </p><p><em>default</em></p></td><td>TERM</td><td><code>Terminate</code> : Provoca la terminazione del programma. A differenza di SIGKILL, può essere bloccato, ignorato o gestito. È il modo "pulito" di chiedere a un programma di terminare; consente al programma di completare le operazioni essenziali e di autopulirsi prima di terminare.</td></tr><tr><td>18</td><td>CONT</td><td><code>Continue</code> : Inviato a un processo per riprenderlo se è stato interrotto. Non può essere bloccato. Anche se gestito, riprende sempre il processo.</td></tr><tr><td>19</td><td>STOP</td><td><code>Stop, unblockable</code> : Sospende il processo. Non può essere bloccato o gestito.</td></tr><tr><td>20</td><td>TSTP</td><td><code>Keyboard stop</code> : A differenza di SIGSTOP, può essere bloccato, ignorato o gestito. Inviato premendo la sequenza di tasti di sospensione (<strong>Ctrl</strong>+<strong>Z</strong>).</td></tr></tbody></table>
+
 
 
 [^1]: IMPORTANTE!!!\
