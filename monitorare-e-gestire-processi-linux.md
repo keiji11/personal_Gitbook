@@ -79,7 +79,68 @@ ps jT
 
 <table data-full-width="true"><thead><tr><th>Signal</th><th>Nome</th><th>Definizione</th></tr></thead><tbody><tr><td>1</td><td>HUP</td><td><code>Hangup</code> : Segnala la terminazione del processo di controllo di un terminale. Richiede anche la reinizializzazione del processo (ricarica della configurazione) senza terminazione.</td></tr><tr><td>2</td><td>INT</td><td><code>Keyboard interrupt</code> : Provoca l'interruzione del programma. Può essere bloccata o gestita. Viene inviato premendo la sequenza di tasti INTR (Interrupt)(<strong>Ctrl</strong>+<strong>C</strong>).</td></tr><tr><td>3</td><td>QUIT</td><td><code>Keyboard quit</code> : Simile a SIGINT; aggiunge un dump del processo al momento della terminazione. Viene inviato premendo la sequenza di tasti QUIT (<strong>Ctrl</strong>+<strong>\</strong>).</td></tr><tr><td>9</td><td>KILL</td><td><code>Kill, unblockable</code> : Provoca una brusca terminazione del programma. Non può essere bloccata, ignorata o gestita; è sempre fatale.</td></tr><tr><td><p>15 </p><p><em>default</em></p></td><td>TERM</td><td><code>Terminate</code> : Provoca la terminazione del programma. A differenza di SIGKILL, può essere bloccato, ignorato o gestito. È il modo "pulito" di chiedere a un programma di terminare; consente al programma di completare le operazioni essenziali e di autopulirsi prima di terminare.</td></tr><tr><td>18</td><td>CONT</td><td><code>Continue</code> : Inviato a un processo per riprenderlo se è stato interrotto. Non può essere bloccato. Anche se gestito, riprende sempre il processo.</td></tr><tr><td>19</td><td>STOP</td><td><code>Stop, unblockable</code> : Sospende il processo. Non può essere bloccato o gestito.</td></tr><tr><td>20</td><td>TSTP</td><td><code>Keyboard stop</code> : A differenza di SIGSTOP, può essere bloccato, ignorato o gestito. Inviato premendo la sequenza di tasti di sospensione (<strong>Ctrl</strong>+<strong>Z</strong>).</td></tr></tbody></table>
 
+### Invio Signals su richiesta
 
+```sh
+# Lista signals
+kill -l
+ 1) SIGHUP      2) SIGINT      3) SIGQUIT     4) SIGILL      5) SIGTRAP
+ 6) SIGABRT     7) SIGBUS      8) SIGFPE      9) SIGKILL    10) SIGUSR1
+11) SIGSEGV    12) SIGUSR2    13) SIGPIPE    14) SIGALRM    15) SIGTERM
+16) SIGSTKFLT  17) SIGCHLD    18) SIGCONT    19) SIGSTOP    20) SIGTSTP
+```
+
+* 19\) SIGSTOP = Manutenzione processo. Impedisce ad un processo di ottenere il tempo dalla CPU
+* 18\) SIGCONT = Riprende il processo dal `kill`` `**`-19`**` ``PID`
+* 2\) SIGINT = é come premere CTRL+c per interrompere un processo
+* 15\) SIGTERM = `kill PID`  termina il processo in modo pulito
+* 9\) SIGKILL = si usa quando un processo non risponde a SIGTERM&#x20;
+* 1\) SIGHUP = fa da RELOAD del processo
+
+### pidof
+
+```sh
+# indica il PID dell'applicazione/processo
+pidof <NOME_APP>
+```
+
+### pkill e killall
+
+```sh
+# Segnala uno o più processi che corrispondono ai criteri di selezione.
+# I criteri di selezione possono essere il nome di un comando, 
+# un processo di cui è proprietario un utente specifico o tutti i processi del sistema.
+pkill <NOME_COMANDO o NOME_PROCESSO/I>
+# Uccide i processi per nome 
+killall <NOME_PROCESSO> 
+```
+
+### w
+
+Informazioni su utenti che hanno effettuato l'accesso e come lo hanno fatto
+
+<pre class="language-sh"><code class="lang-sh">w -u bob
+>USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+<strong>>bob      tty3                      18:37    5:04   0.03s  0.03s -bash
+</strong></code></pre>
+
+### pgrep
+
+Cerca pid e nomi processi&#x20;
+
+```sh
+# cerca processi relativi all'utenza student (-l = lista)
+pgrep -l -u student
+```
+
+### pstree
+
+Visualizza in modo gerarchico i processi
+
+```sh
+# specifica un utente
+pstree -p <NOME_USER>
+```
 
 [^1]: IMPORTANTE!!!\
     stato processi
