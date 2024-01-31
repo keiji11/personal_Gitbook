@@ -97,14 +97,14 @@ kill -l
 * 9\) SIGKILL = si usa quando un processo non risponde a SIGTERM&#x20;
 * 1\) SIGHUP = fa da RELOAD del processo
 
-### pidof
+### `pidof`
 
 ```sh
 # indica il PID dell'applicazione/processo
 pidof <NOME_APP>
 ```
 
-### pkill e killall
+### `pkill` e `killall`
 
 ```sh
 # Segnala uno o più processi che corrispondono ai criteri di selezione.
@@ -115,7 +115,7 @@ pkill <NOME_COMANDO o NOME_PROCESSO/I>
 killall <NOME_PROCESSO> 
 ```
 
-### w
+### `w`
 
 Informazioni su utenti che hanno effettuato l'accesso e come lo hanno fatto
 
@@ -124,7 +124,7 @@ Informazioni su utenti che hanno effettuato l'accesso e come lo hanno fatto
 <strong>>bob      tty3                      18:37    5:04   0.03s  0.03s -bash
 </strong></code></pre>
 
-### pgrep
+### `pgrep`
 
 Cerca pid e nomi processi&#x20;
 
@@ -133,7 +133,7 @@ Cerca pid e nomi processi&#x20;
 pgrep -l -u student
 ```
 
-### pstree
+### `pstree`
 
 Visualizza in modo gerarchico i processi
 
@@ -141,6 +141,29 @@ Visualizza in modo gerarchico i processi
 # specifica un utente
 pstree -p <NOME_USER>
 ```
+
+## Comando `top`
+
+**Table 8.3. Fundamental Keystrokes in `top` Command**
+
+<table data-full-width="true"><thead><tr><th></th><th>Funzione</th></tr></thead><tbody><tr><td><strong>?</strong> <em>or</em> <strong>h</strong></td><td>Help per i tasti interattivi.</td></tr><tr><td><strong>l</strong>, <strong>t</strong>, <strong>m</strong></td><td>Toggle per linee load, threads e memory header.</td></tr><tr><td><strong>1</strong></td><td>Toggle or individual CPUs or a summary for all CPUs in the header.</td></tr><tr><td><strong>s</strong></td><td>Change the refresh (screen) rate, in decimal seconds (such as 0.5, 1, 5).</td></tr><tr><td><strong>b</strong></td><td>Toggle reverse highlighting for <code>Running</code> processes; the default is bold only.</td></tr><tr><td><strong>Shift</strong>+<strong>b</strong></td><td>Enables bold use in display, in the header, and for <em>Running</em> processes.</td></tr><tr><td><strong>Shift</strong>+<strong>h</strong></td><td>Toggle threads; show process summary or individual threads.</td></tr><tr><td><strong>u</strong>, <strong>Shift</strong>+<strong>u</strong></td><td>Filter for any username (effective, real).</td></tr><tr><td><strong>Shift</strong>+<strong>m</strong></td><td>Sort process listing by memory usage, in descending order.</td></tr><tr><td><strong>Shift</strong>+<strong>p</strong></td><td>Sort process listing by processor use, in descending order.</td></tr><tr><td><strong>k</strong></td><td>Kill a process. When prompted, enter <code>PID</code>, and then <code>signal</code>.</td></tr><tr><td><strong>r</strong></td><td>Renice a process. When prompted, enter <code>PID</code>, and then <code>nice_value</code>.</td></tr><tr><td><strong>Shift</strong>+<strong>w</strong></td><td>Write (save) the current display configuration for use at the next <code>top</code> restart.</td></tr><tr><td><strong>q</strong></td><td>Quit.</td></tr><tr><td><strong>f</strong></td><td>Manage the columns by enabling or disabling fields. You can also set the sort field for <code>top</code>.</td></tr></tbody></table>
+
+### Colonne del comando `top`
+
+* Process ID (`PID`).
+* Username dell' **owner** del processo(`USER`).
+* La memoria **virtuale** (VIRT) è tutta la memoria utilizzata dal processo, compreso il set residente, le librerie condivise e qualsiasi pagina di memoria mappata o swappata (etichettata VSZ nel comando ps).
+* La memoria **residente** (RES) è la memoria fisica utilizzata dal processo, compresi gli oggetti residenti e condivisi (etichettati RSS nel comando ps).
+* Stati dei processi (`S`) :
+  * `D` = Uninterruptible Sleeping
+  * `R` = Running or Runnable
+  * `S` = Sleeping
+  * `T` = Stopped or Traced
+  * `Z` = Zombie
+* CPU time (`TIME`) è il tempo totale di elaborazione dall'inizio del processo. Si può selezionare per includere un tempo cumulativo di tutti i child precedenti.
+* Nome del comando del processo (`COMMAND`).
+
+
 
 [^1]: IMPORTANTE!!!\
     stato processi
