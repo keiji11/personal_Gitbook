@@ -14,3 +14,4 @@
   * [Sommario](configurare-e-mettere-in-sicurezza-ssh/sommario.md)
 * [🥅 Gestione Networking](gestione-networking/README.md)
   * [Convalidare la configurazione di rete](gestione-networking/convalidare-la-configurazione-di-rete.md)
+* [Configurare reti da CLI](configurare-reti-da-cli.md)
