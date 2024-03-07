@@ -7,13 +7,19 @@ Gestione delle impostazioni e dei dispositivi di rete con il comando `nmcli` su 
 
 `nmcli device status`&#x20;
 
+`nmcli d s`
+
 * mostra lo stato di tutti i dispositivi di rete.
 
-`nmcli connection show`&#x20;
+`nmcli connection show`
+
+`nmcli c s`&#x20;
 
 * elenca tutte le connessioni. L'opzione `--active` mostra solo quelle attive.
 
 `nmcli connection add`&#x20;
+
+`nmcli c a`
 
 * aggiunge nuove connessioni, i cui dati sono salvati in `/etc/NetworkManager/system-connections/`.
 
@@ -21,7 +27,7 @@ Gestione delle impostazioni e dei dispositivi di rete con il comando `nmcli` su 
 
 * attiva una connessione sul suo dispositivo. `nmcli device disconnect` disconnette il dispositivo e disattiva la connessione.
 
-`nmcli connection show name`&#x20;
+`nmcli connection show <NAME>`&#x20;
 
 * mostra le impostazioni correnti di una connessione.
 
@@ -36,3 +42,19 @@ Dopo modifiche manuali ai file, `nmcli con reload`&#x20;
 `nmcli connection delete`&#x20;
 
 * elimina una connessione e il suo file di configurazione.
+
+#### Visualizzare connessioni su RHEL9
+
+* `ls /etc/sysconfig/network-scripts/`
+* `ls /etc/NetworkManager/system-connections/`
+
+#### Configurazione interattiva delle reti
+
+* `nmtui`
+
+#### Settare l'hostname
+
+* `hostnamectl set-hostname <NAME>`
+
+
+
