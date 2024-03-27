@@ -15,3 +15,7 @@
 * [🥅 Gestione Networking](gestione-networking/README.md)
   * [Convalidare la configurazione di rete](gestione-networking/convalidare-la-configurazione-di-rete.md)
   * [Configurare reti da CLI](gestione-networking/configurare-reti-da-cli.md)
+* [📦 Installare ed aggiornare software package manager](installare-ed-aggiornare-software-package-manager/README.md)
+  * [Abilitare le software repositories DNF](installare-ed-aggiornare-software-package-manager/abilitare-le-software-repositories-dnf.md)
+* [📂 Accesso ai file system di Linux](accesso-ai-file-system-di-linux/README.md)
+  * [⚙️ Mount e Unmount dei FS](accesso-ai-file-system-di-linux/mount-e-unmount-dei-fs.md)
