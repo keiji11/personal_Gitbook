@@ -19,3 +19,5 @@
   * [Abilitare le software repositories DNF](installare-ed-aggiornare-software-package-manager/abilitare-le-software-repositories-dnf.md)
 * [📂 Accesso ai file system di Linux](accesso-ai-file-system-di-linux/README.md)
   * [⚙️ Mount e Unmount dei FS](accesso-ai-file-system-di-linux/mount-e-unmount-dei-fs.md)
+* [📡 Analizzare Server e chiedere supporto](analizzare-server-e-chiedere-supporto/README.md)
+  * [⛑️ Individuare e risolvere i problemi con Red Hat Insights](analizzare-server-e-chiedere-supporto/individuare-e-risolvere-i-problemi-con-red-hat-insights.md)
