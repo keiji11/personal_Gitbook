@@ -4,7 +4,7 @@
 
 Output Redirection Operators
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Output Redirection Operators</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>Output Redirection Operators</p></figcaption></figure>
 
 | Usage          | Explanation                                                         | Visual aid                                                                                                                                                                                                         |
 | -------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

@@ -2,7 +2,7 @@
 
 ### Personalizzazione della Configurazione del Servizio OpenSSH
 
-Obiettivi**:**&#x20;
+Obiettiv&#x69;**:**&#x20;
 
 Disabilitare i login diretti come utente root e l'autenticazione basata su password per il servizio OpenSSH.
 

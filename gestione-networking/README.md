@@ -21,9 +21,5 @@ Di seguito sono riportati i quattro strati del modello di rete TCP/IP:
 * **Internet -** Lo strato internet, o strato di rete, trasporta i dati dall'host sorgente all'host destinatario. I protocolli IPv4 e IPv6 sono protocolli dello strato internet. Ogni host ha un indirizzo IP e un prefisso per determinare gli indirizzi di rete. I router sono usati per connettere le reti.
 * **Link -** Lo strato di collegamento, o strato di accesso al mezzo, fornisce la connessione ai media fisici. I tipi più comuni di reti sono Ethernet cablata (802.3) e Wi-Fi wireless (802.11). Ogni dispositivo fisico ha un indirizzo di controllo dell'accesso al mezzo (MAC), noto anche come indirizzo hardware, per identificare la destinazione dei pacchetti sul segmento di rete locale.
 
-<div data-full-width="false">
-
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="false"><figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure></div>
 

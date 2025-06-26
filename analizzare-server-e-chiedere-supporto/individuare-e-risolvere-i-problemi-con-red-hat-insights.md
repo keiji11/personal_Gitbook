@@ -4,7 +4,7 @@ La piattaforma Red Hat Insights analizza i dati ricevuti e visualizza i risultat
 
 [console\_Insights](https://console.redhat.com/insights)
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Schema ad alto livello di RH Insights</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Schema ad alto livello di RH Insights</p></figcaption></figure>
 
 #### Installazione Client di Red Hat Insights
 
@@ -44,15 +44,15 @@ Su Red Hat Insights (`https://console.redhat.com/insights`), assicurarsi di aver
 
 ## Navigazione nella console Red Hat Insights
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Inventario di Insights sul portale Cloud</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Inventario di Insights sul portale Cloud</p></figcaption></figure>
 
 Rilevare i problemi di configurazione con il **servizio Advisor**:
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Valutare la sicurezza con il **servizio di vulnerabilità**:
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 #### Analizzare la conformità utilizzando il servizio Compliance
 
@@ -62,13 +62,13 @@ Il **servizio Compliance** analizza i sistemi e ne riporta il livello di conform
 
 Il **servizio Patch** elenca gli avvisi di prodotto Red Hat applicabili ai vostri sistemi. Può anche generare un Ansible Playbook, che può essere eseguito per aggiornare i pacchetti RPM pertinenti per gli avvisi applicabili. Per accedere all'elenco degli avvisi per un sistema specifico, utilizzare il menu `Patch → Sistemi`. Fare clic sul pulsante Applica tutti gli avvisi applicabili per generare il Playbook Ansible per un sistema.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>patchare un sistema</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>patchare un sistema</p></figcaption></figure>
 
 #### Attivare gli alerts con il servizio Policies
 
 Utilizzando il **servizio Policies**, è possibile creare regole per monitorare i sistemi e inviare avvisi quando un sistema non rispetta le regole. Red Hat Insights valuta le regole ogni volta che un sistema sincronizza i suoi metadati. È possibile accedere al servizio Criteri dal menu Criteri.
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>dettaglio di un ruolo custom</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>dettaglio di un ruolo custom</p></figcaption></figure>
 
 #### Inventario, Remediation Playbook e Monitoraggio delle sottoscrizioni
 

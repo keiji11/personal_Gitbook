@@ -19,5 +19,5 @@
 
 * sottrae le cifre ottali del permesso iniziale:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="tabella UMASK"><figcaption><p>TABELLA umask</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt="tabella UMASK"><figcaption><p>TABELLA umask</p></figcaption></figure>
 
