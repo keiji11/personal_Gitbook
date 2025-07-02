@@ -23,3 +23,4 @@
   * [Individuare e risolvere i problemi con Red Hat Insights](analizzare-server-e-chiedere-supporto/individuare-e-risolvere-i-problemi-con-red-hat-insights.md)
 * [Bash-Script minimale per aumentare la produttivitá](bash-script-minimale-per-aumentare-la-produttivita/README.md)
   * [Cicli e costrutti condizionali per script](bash-script-minimale-per-aumentare-la-produttivita/cicli-e-costrutti-condizionali-per-script.md)
+  * [Wildcard per filtrare testo etc](bash-script-minimale-per-aumentare-la-produttivita/wildcard-per-filtrare-testo-etc.md)
