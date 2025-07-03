@@ -24,3 +24,4 @@
 * [Bash-Script minimale per aumentare la produttivitá](bash-script-minimale-per-aumentare-la-produttivita/README.md)
   * [Cicli e costrutti condizionali per script](bash-script-minimale-per-aumentare-la-produttivita/cicli-e-costrutti-condizionali-per-script.md)
   * [Wildcard per filtrare testo etc](bash-script-minimale-per-aumentare-la-produttivita/wildcard-per-filtrare-testo-etc.md)
+* [Schedulare task futuri](schedulare-task-futuri.md)
