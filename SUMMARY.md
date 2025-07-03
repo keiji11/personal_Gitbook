@@ -27,3 +27,4 @@
 * [Schedulare task futuri](schedulare-task-futuri/README.md)
   * [Schedulare user jobs ricorsivi](schedulare-task-futuri/schedulare-user-jobs-ricorsivi.md)
   * [Schedulare system jobs ricorsivi](schedulare-task-futuri/schedulare-system-jobs-ricorsivi.md)
+  * [Gestione file temporanei](schedulare-task-futuri/gestione-file-temporanei.md)
