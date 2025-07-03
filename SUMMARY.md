@@ -28,3 +28,4 @@
   * [Schedulare user jobs ricorsivi](schedulare-task-futuri/schedulare-user-jobs-ricorsivi.md)
   * [Schedulare system jobs ricorsivi](schedulare-task-futuri/schedulare-system-jobs-ricorsivi.md)
   * [Gestione file temporanei](schedulare-task-futuri/gestione-file-temporanei.md)
+* [Analizzare e preservare i log](analizzare-e-preservare-i-log.md)
