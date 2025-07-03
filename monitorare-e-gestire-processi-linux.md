@@ -1,4 +1,4 @@
-# 🎓 Monitorare e Gestire Processi Linux
+# Monitorare e Gestire Processi Linux
 
 ## Comandi `ps`
 

@@ -1,4 +1,4 @@
-# 👥 Utenze e gruppi
+# Utenze e gruppi
 
 ### ID Processi
 
@@ -105,8 +105,8 @@
 ### Gestire password
 
 * `grep <USERNAME> /etc/shadow`
-  * \-> `<USERNAME>:<HASHED_PASSWORD>:<DAYS_FROM_LAST_PSWD_CHANGE>:<DAYS_AFTER_USER_CAN_CHANGE_PSWD>:<MAX_DAYS_PSWD_EXPIRED>:<DAYS_BEFORE_WARNING>:<N_DAYS_INACTIVE>:<DAYS_TO_EXPIRING_PSWD>`
-  * \-> ex. `student:`HASH o `!!`(NO\_PSWD)`:19130:0:99999:7::::`
+  * -> `<USERNAME>:<HASHED_PASSWORD>:<DAYS_FROM_LAST_PSWD_CHANGE>:<DAYS_AFTER_USER_CAN_CHANGE_PSWD>:<MAX_DAYS_PSWD_EXPIRED>:<DAYS_BEFORE_WARNING>:<N_DAYS_INACTIVE>:<DAYS_TO_EXPIRING_PSWD>`
+  * -> ex. `student:`HASH o `!!`(NO\_PSWD)`:19130:0:99999:7::::`
 
 #### Cambio password policies:
 

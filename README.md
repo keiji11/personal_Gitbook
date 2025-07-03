@@ -1,32 +1,34 @@
-[![GitBook](https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=ffffff&label=%20&labelColor=5c5c5c&color=3F89A1)](https://www.gitbook.com/preview?utm_source=gitbook_readme_badge&utm_medium=organic&utm_campaign=preview_documentation&utm_content=link)
-
 # 🪜 Gerarchia Linux filesystems
 
-* ```Shell
+[![GitBook](https://img.shields.io/static/v1?message=Documented%20on%20GitBook\&logo=gitbook\&logoColor=ffffff\&label=%20\&labelColor=5c5c5c\&color=3F89A1)](https://www.gitbook.com/preview?utm_source=gitbook_readme_badge\&utm_medium=organic\&utm_campaign=preview_documentation\&utm_content=link)
+
+## 🪜 Gerarchia Linux filesystems
+
+* ```shell
   # view ad albero, livello 1 di profonditá, directory:
   tree -L 1 /
   ```
 * /etc sta per Extended Text Configuration
 * Come scoprire se il commando precedente é andato a buon fine?
 
-```Shell
+```shell
 echo $?
 # se 0 OK
 # se 1 KO
 ```
 
-### RHEL FS
+#### RHEL FS
 
 * il filesystem di RHEL é XFS ed é composto da 512 bytes/file
 
-```Shell
+```shell
 xfs_info /
 
 # -i sta per inode
 ls -li
 ```
 
-### Creare un LINK
+#### Creare un LINK
 
 {% code lineNumbers="true" %}
 ```bash
@@ -40,7 +42,7 @@ $(cat hello_world) == $(cat hello_link)
 ```
 {% endcode %}
 
-### HARD link e SOFT link
+#### HARD link e SOFT link
 
 * I primi collegano directory ed i secondi solo file
 
@@ -53,9 +55,9 @@ ln -s training_sources/ learning_material
 ```
 {% endcode %}
 
-### Matcha nomi dei file con le shell extension
+#### Matcha nomi dei file con le shell extension
 
-#### rename
+**rename**
 
 {% code lineNumbers="true" %}
 ```bash
@@ -68,13 +70,13 @@ rename .htm .html *
 {% endcode %}
 
 * `?` sta per "qualsiasi carattere" -> `f????` potrebbe stare per `fetch` o `fired`.
-* `cd ~student`  mi porterá alla home di quell'user anche se sono nell'env di root ,ad esempio.
+* `cd ~student` mi porterá alla home di quell'user anche se sono nell'env di root ,ad esempio.
 * `[!b]*` matcha solo nomi di file che non iniziano per b
 * `*[[:digit:]]*` matcha file che contengono numeri nel nome
 * `[[:upper:]]*` matcha file i cui nomi iniziano con la maiuscola
 * `???*` matcha nomi di file che abbiano almeno tre caratteri
 
-#### variabili e stringhe
+**variabili e stringhe**
 
 {% code lineNumbers="true" %}
 ```bash

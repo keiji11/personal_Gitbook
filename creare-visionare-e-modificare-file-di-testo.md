@@ -1,4 +1,4 @@
-# 📄 Creare, visionare e modificare file di testo
+# Creare, visionare e modificare file di testo
 
 ### Redirect
 

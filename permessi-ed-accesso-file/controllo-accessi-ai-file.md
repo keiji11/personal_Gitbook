@@ -1,4 +1,4 @@
-# 😁 Controllo Accessi ai file
+# Controllo Accessi ai file
 
 ### chown
 

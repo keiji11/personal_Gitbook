@@ -1,4 +1,4 @@
-# 👺 Servizi di controllo e Daemon
+# Servizi di controllo e Daemon
 
 ## Identificare i processi di sistema avviati automaticamente
 

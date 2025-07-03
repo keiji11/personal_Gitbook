@@ -1,4 +1,4 @@
-# 🚫 Permessi ed accesso file
+# Permessi ed accesso file
 
 ### Sticky bit
 

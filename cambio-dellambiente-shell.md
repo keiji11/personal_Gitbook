@@ -1,4 +1,4 @@
-# 🐚 Cambio dell'ambiente shell
+# Cambio dell'ambiente shell
 
 ## Profilo utenti
 

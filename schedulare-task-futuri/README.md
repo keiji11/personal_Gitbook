@@ -1,6 +1,6 @@
 # Schedulare task futuri
 
-### Schedulare un job utente differito
+### Schedulare un job utente in modo differito
 
 #### Attività Utente Differite
 
@@ -79,3 +79,31 @@ Per ispezionare i comandi di un lavoro:
 ```bash
 atrm JOBNUMBER
 ```
+
+#### Esempi:
+
+*   Schedula un'attività da eseguire tra 2 minuti. Salva l'output del comando date nel file `/home/student/myjob.txt`:
+
+    ```bash
+    [student@servera ~]$ echo "date >> /home/student/myjob.txt" | at now +2min
+    warning: commands will be executed using /bin/sh
+    job 1 at Thu Feb 16 18:51:16 2023
+    ```
+*   Schedulazione interattiva di un _**job**_ nella coda `g` che runna in orario `teatime` (16:00) stampando il messaggio `It's teatime` nel file `/home/student/tea.txt` :
+
+    <pre class="language-bash"><code class="lang-bash"><strong>[student@servera ~]$ at -q g teatime
+    </strong>warning: commands will be executed using /bin/sh
+    <strong>at> echo "It's teatime" >> /home/student/tea.txt
+    </strong><strong>at> Ctrl+d
+    </strong>job 2 at Fri Feb 17 16:00:00 2023
+    </code></pre>
+*   Pianifica in modo interattivo un altro lavoro con la coda `b` che viene eseguito alle `16:05`. Il lavoro deve stampare il messaggio `"The cookies are good"` nel file `/home/student/cookies.txt` :&#x20;
+
+    ```bash
+    [student@servera ~]$ at -q b 16:05
+    warning: commands will be executed using /bin/sh
+    at> echo "The cookies are good" >> /home/student/cookies.txt
+    at> Ctrl+d
+    job 3 at Fri Feb 17 16:05:00 2023
+    ```
+

@@ -2,7 +2,7 @@
 description: Comandi Linux generali
 ---
 
-# 💻 Linux commands
+# Linux commands
 
 ### FG e BG
 

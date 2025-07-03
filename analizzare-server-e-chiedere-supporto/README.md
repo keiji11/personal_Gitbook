@@ -1,4 +1,4 @@
-# 📡 Analizzare Server e chiedere supporto
+# Analizzare Server e chiedere supporto
 
 ### Analizzare e gestire server remoti
 

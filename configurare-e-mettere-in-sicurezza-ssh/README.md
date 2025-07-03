@@ -1,4 +1,4 @@
-# 🔐 Configurare e mettere in sicurezza SSH
+# Configurare e mettere in sicurezza SSH
 
 ## Accesso alla Linea di Comando Remota con SSH
 

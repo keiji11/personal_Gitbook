@@ -1,4 +1,4 @@
-# 📦 Installare ed aggiornare software package manager
+# Installare ed aggiornare software package manager
 
 ## Gestione dei Pacchetti Software con DNF
 

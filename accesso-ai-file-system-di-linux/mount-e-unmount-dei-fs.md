@@ -1,4 +1,4 @@
-# ⚙️ Mount e Unmount dei FS
+# Mount e Unmount dei FS
 
 ### Montare manualmente i file system
 

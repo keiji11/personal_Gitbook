@@ -1,4 +1,4 @@
-# 📂 Accesso ai file system di Linux
+# Accesso ai file system di Linux
 
 Identificare File System e Dispositivi
 

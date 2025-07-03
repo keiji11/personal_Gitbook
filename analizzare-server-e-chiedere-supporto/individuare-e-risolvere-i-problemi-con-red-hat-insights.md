@@ -1,4 +1,4 @@
-# ⛑️ Individuare e risolvere i problemi con Red Hat Insights
+# Individuare e risolvere i problemi con Red Hat Insights
 
 La piattaforma Red Hat Insights analizza i dati ricevuti e visualizza i risultati sul sito
 
