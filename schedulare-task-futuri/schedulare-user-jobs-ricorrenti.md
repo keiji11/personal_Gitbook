@@ -1,2 +1,0 @@
-# Schedulare user jobs ricorrenti
-

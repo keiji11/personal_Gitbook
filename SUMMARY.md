@@ -25,4 +25,4 @@
   * [Cicli e costrutti condizionali per script](bash-script-minimale-per-aumentare-la-produttivita/cicli-e-costrutti-condizionali-per-script.md)
   * [Wildcard per filtrare testo etc](bash-script-minimale-per-aumentare-la-produttivita/wildcard-per-filtrare-testo-etc.md)
 * [Schedulare task futuri](schedulare-task-futuri/README.md)
-  * [Schedulare user jobs ricorrenti](schedulare-task-futuri/schedulare-user-jobs-ricorrenti.md)
+  * [Schedulare user jobs ricorsivi](schedulare-task-futuri/schedulare-user-jobs-ricorsivi.md)
