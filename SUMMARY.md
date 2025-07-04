@@ -31,3 +31,4 @@
 * [Analizzare e preservare i log](analizzare-e-preservare-i-log/README.md)
   * [Review log di sistema](analizzare-e-preservare-i-log/review-log-di-sistema.md)
   * [Rivedere le voci del registro di sistema](analizzare-e-preservare-i-log/rivedere-le-voci-del-registro-di-sistema.md)
+  * [Conserva il journal di sistema](analizzare-e-preservare-i-log/conserva-il-journal-di-sistema.md)
