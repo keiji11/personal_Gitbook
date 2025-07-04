@@ -122,7 +122,7 @@ Per inviare un messaggio al servizio `rsyslog` da registrare nel file di log `/v
 [root@host~]# logger -p local7.notice "Voce di log creata su host"
 ```
 
-## Esempi:
+## Esempi
 
 * Configurare il servizio `rsyslog` su `servera` per loggare tutti i messaggi `debug` o superiori, per ogni servizio al nuovo file di log `/var/log/messages-debug` cambiando il file di configurazione `/etc/rsyslog.d/debug.conf` :&#x20;
 
