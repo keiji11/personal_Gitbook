@@ -121,3 +121,41 @@ Per inviare un messaggio al servizio `rsyslog` da registrare nel file di log `/v
 ```sh
 [root@host~]# logger -p local7.notice "Voce di log creata su host"
 ```
+
+## Esempi:
+
+* Configurare il servizio `rsyslog` su `servera` per loggare tutti i messaggi `debug` o superiori, per ogni servizio al nuovo file di log `/var/log/messages-debug` cambiando il file di configurazione `/etc/rsyslog.d/debug.conf` :&#x20;
+
+1. &#x20;Creare il file `/etc/rsyslog.d/debug.conf` :&#x20;
+
+```log
+*.debug   /var/log/messages-debug
+```
+
+2. Riavviare il servizio `rsyslog` :&#x20;
+
+```bash
+[root@servera ~]# systemctl restart rsyslog
+```
+
+* Verifica che tutti i messaggi di log con priorità `debug` compaiano nel file di log `/var/log/messages-debug` :&#x20;
+
+1. Scrivi:
+
+```bash
+[root@servera ~]# logger -p user.debug "Debug Message Test"
+```
+
+2. Visualizziamo fgli ultimi 10 messaggi di log su `/var/log/messages-debug` e verifichiamoche appaia il messaggio: `Debug Message Test` :&#x20;
+
+```bash
+[root@servera ~]# tail /var/log/messages-debug
+Feb 13 18:22:38 servera systemd[1]: Stopping System Logging Service...
+Feb 13 18:22:38 servera rsyslogd[25176]: [origin software="rsyslogd" swVersion="8.37.0-9.el8" x-pid="25176" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Feb 13 18:22:38 servera systemd[1]: Stopped System Logging Service.
+Feb 13 18:22:38 servera systemd[1]: Starting System Logging Service...
+Feb 13 18:22:38 servera rsyslogd[25410]: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime  [v8.37.0-9.el8 try http://www.rsyslog.com/e/2442 ]
+Feb 13 18:22:38 servera systemd[1]: Started System Logging Service.
+Feb 13 18:22:38 servera rsyslogd[25410]: [origin software="rsyslogd" swVersion="8.37.0-9.el8" x-pid="25410" x-info="http://www.rsyslog.com"] start
+Feb 13 18:27:58 servera root[25416]: Debug Message Test
+```
