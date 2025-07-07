@@ -33,4 +33,5 @@
   * [Rivedere le voci del registro di sistema](analizzare-e-preservare-i-log/rivedere-le-voci-del-registro-di-sistema.md)
   * [Conserva il journal di sistema](analizzare-e-preservare-i-log/conserva-il-journal-di-sistema.md)
   * [Mantenere l'ora esatta](analizzare-e-preservare-i-log/mantenere-lora-esatta.md)
-* [Archiviare e trasferire file](archiviare-e-trasferire-file.md)
+* [Archiviare e trasferire file](archiviare-e-trasferire-file/README.md)
+  * [Trasferire file in remoto con SecureFileTransferProtocol](archiviare-e-trasferire-file/trasferire-file-in-remoto-con-securefiletransferprotocol.md)
