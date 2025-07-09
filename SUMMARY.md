@@ -36,4 +36,5 @@
 * [Archiviare e trasferire file](archiviare-e-trasferire-file.md)
   * [Trasferire file in remoto con SecureFileTransferProtocol](archiviare-e-trasferire-file/trasferire-file-in-remoto-con-securefiletransferprotocol.md)
   * [Sincronizzazione file di sistema in remoto](archiviare-e-trasferire-file/sincronizzazione-file-di-sistema-in-remoto.md)
-* [Messa a punto delle prestazioni del sistema (Tune)](messa-a-punto-delle-prestazioni-del-sistema-tune.md)
+* [Messa a punto delle prestazioni del sistema (Tune)](messa-a-punto-delle-prestazioni-del-sistema-tune/README.md)
+  * [Influenza sulla schedulazione dei processi](messa-a-punto-delle-prestazioni-del-sistema-tune/influenza-sulla-schedulazione-dei-processi.md)
