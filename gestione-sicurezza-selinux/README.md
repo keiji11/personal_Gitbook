@@ -39,7 +39,7 @@ Ogni risorsa (file, processo, directory, porta) ha un'etichetta chiamata _**cont
 
 La policy predefinita su RHEL è la _<mark style="color:orange;">Targeted Policy</mark>_, che utilizza contesti di tipo, riconoscibili dal suffisso `_t`, per definire le regole di accesso.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Concetti relativi alle policy dell regole di accesso
 
@@ -52,7 +52,7 @@ Per impostazione predefinita, il server Apache può accedere solo ai file etiche
 Non può accedere ai file `tmp_t`, proteggendo da accessi non autorizzati. \
 Un server MariaDB utilizza il contesto `mysqld_t` e accede ai file con il contesto `mysqld_db_t`, ma non ai file del server web.
 
-<figure><img src=".gitbook/assets/image (1).png" alt="diagramma di flusso SELinux "><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="diagramma di flusso SELinux "><figcaption></figcaption></figure>
 
 #### Uso dell'opzione _<mark style="color:orange;">-Z</mark>_ per gestione contesto SELinux
 
