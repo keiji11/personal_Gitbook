@@ -41,3 +41,4 @@
 * [Gestione Sicurezza SELinux](gestione-sicurezza-selinux/README.md)
   * [Controllo dei contesti dei file SELinux](gestione-sicurezza-selinux/controllo-dei-contesti-dei-file-selinux.md)
   * [Modifica delle SELinux policy con i booleani](gestione-sicurezza-selinux/modifica-delle-selinux-policy-con-i-booleani.md)
+  * [Indagare e risolvere i problemi relativi a SELinux](gestione-sicurezza-selinux/indagare-e-risolvere-i-problemi-relativi-a-selinux.md)
