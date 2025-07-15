@@ -40,3 +40,4 @@
   * [Influenza sulla schedulazione dei processi](messa-a-punto-delle-prestazioni-del-sistema-tune/influenza-sulla-schedulazione-dei-processi.md)
 * [Gestione Sicurezza SELinux](gestione-sicurezza-selinux/README.md)
   * [Controllo dei contesti dei file SELinux](gestione-sicurezza-selinux/controllo-dei-contesti-dei-file-selinux.md)
+  * [Modifica delle SELinux policy con i booleani](gestione-sicurezza-selinux/modifica-delle-selinux-policy-con-i-booleani.md)
