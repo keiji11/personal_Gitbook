@@ -44,3 +44,4 @@
   * [Indagare e risolvere i problemi relativi a SELinux](gestione-sicurezza-selinux/indagare-e-risolvere-i-problemi-relativi-a-selinux.md)
 * [Aggiungere partizioni,file system e mounts persistenti](aggiungere-partizioni-file-system-e-mounts-persistenti/README.md)
   * [Gestione spazio SWAP](aggiungere-partizioni-file-system-e-mounts-persistenti/gestione-spazio-swap.md)
+* [Gestione stack storage](gestione-stack-storage.md)
