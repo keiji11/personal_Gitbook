@@ -27,7 +27,7 @@ Gli utenti privilegiati possono diminuire il valore di _<mark style="color:yello
 
 ### Visualizzazione dei valori <mark style="color:yellow;">`nice`</mark>&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Osserviamo le colonne <mark style="color:yellow;">**PR**</mark> (3a) e <mark style="color:yellow;">**NI**</mark> (4a) del comando `top` :&#x20;
 

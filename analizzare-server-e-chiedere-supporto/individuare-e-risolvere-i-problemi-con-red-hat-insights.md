@@ -4,7 +4,7 @@ La piattaforma Red Hat Insights analizza i dati ricevuti e visualizza i risultat
 
 [console\_Insights](https://console.redhat.com/insights)
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Schema ad alto livello di RH Insights</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Schema ad alto livello di RH Insights</p></figcaption></figure>
 
 #### Installazione Client di Red Hat Insights
 
@@ -44,7 +44,7 @@ Su Red Hat Insights (`https://console.redhat.com/insights`), assicurarsi di aver
 
 ## Navigazione nella console Red Hat Insights
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Inventario di Insights sul portale Cloud</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Inventario di Insights sul portale Cloud</p></figcaption></figure>
 
 Rilevare i problemi di configurazione con il **servizio Advisor**:
 

@@ -121,7 +121,7 @@
 Account expires						: Apr 09, 2022
 ```
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>chage Schema</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>chage Schema</p></figcaption></figure>
 
 * <pre><code><strong># Cambio forzato password per l'utente cloudadmin10
   </strong><strong>[root@host ~]# chage -d 0 cloudadmin10
