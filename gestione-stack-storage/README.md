@@ -20,7 +20,7 @@ LVM è un sistema che permette di creare volumi di archiviazione logici al di so
 3. Creare volumi logici dallo spazio disponibile nel gruppo di volumi.&#x20;
 4. Formattare il volume logico con un file system e montarlo, attivarlo come spazio di swap, o passare il volume grezzo a un database o un server di storage per strutture avanzate.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Buildare Storage LVM
 
