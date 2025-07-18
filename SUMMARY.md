@@ -46,4 +46,5 @@
   * [Gestione spazio SWAP](aggiungere-partizioni-file-system-e-mounts-persistenti/gestione-spazio-swap.md)
 * [Gestione stack storage](gestione-stack-storage.md)
   * [Gestione Storage a strati](gestione-stack-storage/gestione-storage-a-strati.md)
-* [Storage con accesso di rete condiviso](storage-con-accesso-di-rete-condiviso.md)
+* [Storage con accesso di rete condiviso](storage-con-accesso-di-rete-condiviso/README.md)
+  * [Montaggio automatico NFS](storage-con-accesso-di-rete-condiviso/montaggio-automatico-nfs.md)
