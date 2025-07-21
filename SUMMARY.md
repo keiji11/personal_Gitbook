@@ -48,3 +48,4 @@
   * [Gestione Storage a strati](gestione-stack-storage/gestione-storage-a-strati.md)
 * [Storage con accesso di rete condiviso](storage-con-accesso-di-rete-condiviso/README.md)
   * [Montaggio automatico NFS](storage-con-accesso-di-rete-condiviso/montaggio-automatico-nfs.md)
+* [Controllo del processo di Boot](controllo-del-processo-di-boot.md)
