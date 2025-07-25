@@ -56,7 +56,7 @@ Il comando visualizza eventuali errori che si verificano durante il montaggio di
 Crea la directory `/mnt/mountfolder` prima di riprovare il montaggio. Altri messaggi di errore possono verificarsi, inclusi errori di battitura negli ingressi, nomi di dispositivo o UUID errati. Dopo aver corretto tutti i problemi nel file `/etc/fstab`, informa il demone `systemd` di registrare il nuovo file `/etc/fstab` utilizzando il comando `systemctl daemon-reload`. Quindi, riprova a montare tutte le voci.
 
 <pre class="language-bash"><code class="lang-bash"><strong>[root@host ~]\# systemctl daemon-reload
-</strong><strong>[root@host ~]#\ mount --all
+</strong><strong>[root@host ~]\# mount --all
 </strong></code></pre>
 
 \
