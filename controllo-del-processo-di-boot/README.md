@@ -41,7 +41,7 @@
 
 > Questo processo garantisce che tutti i componenti hardware e software lavorino insieme per portare il sistema a una schermata di accesso operativa.
 
-<div data-full-width="true"><figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Spegnimento e riavvio
 
