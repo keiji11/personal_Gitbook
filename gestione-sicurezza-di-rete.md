@@ -54,15 +54,15 @@ L'elenco seguente mostra due modi comuni che gli amministratori di sistema utili
 
 Con gli adeguati provilegi per accedervi, fai clic sull'opzione _<mark style="color:orange;">**Networking**</mark>_ nel menu di navigazione a sinistra per visualizzare la sezione _<mark style="color:orange;">**Firewall**</mark>_ nella pagina principale di networking. Fai clic sul pulsante  _<mark style="color:orange;">**Edit rules and zone**</mark>_ per navigare alla pagina _<mark style="color:orange;">**Firewall**</mark>_.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 ### `firewall-cmd` CLI
 

@@ -17,7 +17,7 @@ Nei sistemi Linux, utilizzando partizioni estese e logiche, è possibile creare 
 
 _<mark style="color:yellow;">Il limite di 2 TiB per le dimensioni del disco e delle partizioni è ormai una restrizione comune e limitante.</mark>_ Di conseguenza, _<mark style="color:red;">**lo schema MBR legacy è stato sostituito dallo schema di partizionamento GUID Partition Table (GPT).**</mark>_
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Schema di partizione GPT
 
@@ -27,7 +27,7 @@ GPT utilizza un _<mark style="color:yellow;">identificatore univoco globale</mar
 GPT rende la tabella delle partizioni ridondante, con il GPT principale all'inizio del disco e un backup secondario alla fine del disco. \
 GPT utilizza un checksum per rilevare errori nell'intestazione del GPT e nella tabella delle partizioni.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Gestione partizioni
 
