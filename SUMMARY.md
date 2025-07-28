@@ -51,4 +51,5 @@
 * [Controllo del processo di Boot](controllo-del-processo-di-boot/README.md)
   * [Reset della password di root](controllo-del-processo-di-boot/reset-della-password-di-root.md)
   * [Riparazione problemi del file-system al boot](controllo-del-processo-di-boot/riparazione-problemi-del-file-system-al-boot.md)
-* [Gestione sicurezza di rete](gestione-sicurezza-di-rete.md)
+* [Gestione sicurezza di rete](gestione-sicurezza-di-rete/README.md)
+  * [Controllo dell'etichettatura (labeling) delle porte SELinux](gestione-sicurezza-di-rete/controllo-delletichettatura-labeling-delle-porte-selinux.md)
