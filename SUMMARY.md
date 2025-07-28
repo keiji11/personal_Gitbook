@@ -55,3 +55,4 @@
   * [Controllo dell'etichettatura (labeling) delle porte SELinux](gestione-sicurezza-di-rete/controllo-delletichettatura-labeling-delle-porte-selinux.md)
 * [Installazione RHEL](installazione-rhel/README.md)
   * [Installazione automatica con Kickstart](installazione-rhel/installazione-automatica-con-kickstart.md)
+  * [Installare e configurare VM](installazione-rhel/installare-e-configurare-vm.md)
