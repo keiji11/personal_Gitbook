@@ -58,3 +58,4 @@
   * [Installare e configurare VM](installazione-rhel/installare-e-configurare-vm.md)
 * [Lanciare Container (podman)](lanciare-container-podman/README.md)
   * [Creare container con Podman](lanciare-container-podman/creare-container-con-podman.md)
+  * [Registri delle immagini per i container](lanciare-container-podman/registri-delle-immagini-per-i-container.md)
