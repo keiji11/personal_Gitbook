@@ -58,6 +58,3 @@ Crea la directory `/mnt/mountfolder` prima di riprovare il montaggio. Altri mess
 <pre class="language-bash"><code class="lang-bash"><strong>[root@host ~]\# systemctl daemon-reload
 </strong><strong>[root@host ~]\# mount --all
 </strong></code></pre>
-
-\
-\
