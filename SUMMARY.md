@@ -53,4 +53,5 @@
   * [Riparazione problemi del file-system al boot](controllo-del-processo-di-boot/riparazione-problemi-del-file-system-al-boot.md)
 * [Gestione sicurezza di rete](gestione-sicurezza-di-rete.md)
   * [Controllo dell'etichettatura (labeling) delle porte SELinux](gestione-sicurezza-di-rete/controllo-delletichettatura-labeling-delle-porte-selinux.md)
-* [Installazione RHEL](installazione-rhel.md)
+* [Installazione RHEL](installazione-rhel/README.md)
+  * [Installazione automatica con Kickstart](installazione-rhel/installazione-automatica-con-kickstart.md)
