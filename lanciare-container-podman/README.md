@@ -9,7 +9,7 @@ I contenitori hanno le loro librerie specifiche, indipendenti da quelle del sist
 Il motore del contenitore crea un file system unendo diversi livelli dell'immagine del contenitore e aggiunge un livello scrivibile per le modifiche a runtime. \
 I contenitori sono _effimeri_, significa che il livello scrivibile viene rimosso quando il contenitore viene eliminato.
 
-<div data-full-width="true"><figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure></div>
 
 I contenitori utilizzano funzionalità del kernel Linux come _namespaces_, _cgroups_, _SELinux_ e _secure computing mode (seccomp)_. \
 I namespaces, in particolare, isolano i processi all'interno dei contenitori tra loro e dal sistema host. Sebbene l'ambiente nei contenitori sia basato su Linux, queste caratteristiche spesso vengono virtualizzate dai motori di container sui sistemi non Linux. \

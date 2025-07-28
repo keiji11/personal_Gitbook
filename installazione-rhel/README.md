@@ -43,7 +43,7 @@ Il **programma&#x20;**_**Anaconda**_ supporta due metodi di installazione: manua
 
 ### Installazione RHEL da GUI
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 * <mark style="color:orange;">KDUMP</mark>: la funzionalità _kdump_ del kernel raccoglie informazioni sullo stato della memoria di sistema quando il kernel si arresta in modo anomalo. Gli ingegneri di Red Hat analizzano un file kdump per identificare la causa di un crash. Utilizzare questo elemento di Anaconda per abilitare o disabilitare kdump.
 

@@ -25,7 +25,7 @@ ps -ef | head -5
 
 ## Schemi
 
-<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Lifecycle dei processi</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Lifecycle dei processi</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Stati dei procesi Linux</p></figcaption></figure>
 

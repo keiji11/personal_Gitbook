@@ -56,4 +56,5 @@
 * [Installazione RHEL](installazione-rhel/README.md)
   * [Installazione automatica con Kickstart](installazione-rhel/installazione-automatica-con-kickstart.md)
   * [Installare e configurare VM](installazione-rhel/installare-e-configurare-vm.md)
-* [Lanciare Container (podman)](lanciare-container-podman.md)
+* [Lanciare Container (podman)](lanciare-container-podman/README.md)
+  * [Creare container con Podman](lanciare-container-podman/creare-container-con-podman.md)
