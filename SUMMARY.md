@@ -59,3 +59,4 @@
 * [Lanciare Container (podman)](lanciare-container-podman/README.md)
   * [Creare container con Podman](lanciare-container-podman/creare-container-con-podman.md)
   * [Registri delle immagini per i container](lanciare-container-podman/registri-delle-immagini-per-i-container.md)
+  * [Gestione ciclo di vita del container](lanciare-container-podman/gestione-ciclo-di-vita-del-container.md)
